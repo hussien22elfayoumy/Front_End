@@ -1,0 +1,172 @@
+hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.one {
+    background-color: lightblue;
+}
+
+.two {
+    background-color: lightpink;
+}
+
+.a12 {
+    display: flex;
+}
+
+.a12 .one {
+    width: 200px;
+}
+
+.a12 .two {
+    width: 75px;
+}
+
+.b12 {
+    display: flex;
+}
+
+.b12 .one {
+    width: 50px;
+}
+
+.b12 .two {
+    flex: 1;
+}
+
+.b12 .item3 {
+    width: 75px;
+}
+
+.c12 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d12 {
+    display: flex;
+    height: 50px;
+    border: 1px solid gray;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.e12 {
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(180, 172, 172);
+    border-radius: 6px;
+}
+
+.e12 .flex {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+
+}
+
+.notification {
+    background-color: #4b6dee;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.g12 {
+    width: 500px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.g12 .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+}
+
+.g12 .card .pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.g12 .card .pic-info {
+    flex: 1;
+    margin-left: 15px;
+}
+
+
+.g12 .name {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.g12 .description,
+.g12 .popular{
+    margin-top: 5px;
+    color: gray;
+}
+
+.g12 .follow {
+    background-color: #5194f2;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 18px;
+    
+}
+
+.f12 {
+    height: 50px;
+    background-color: #7155ae;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 15px;
+}
+
+.f12 .home {
+    color: #fff;
+    font-weight: bold;
+}
+
+.f12 .search {
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 16px;
+    font-size: 16px;
+}
+
+.f12 .search:focus {
+    outline: none;
+} 
+.f12 .search::placeholder {
+    font-size: 16px;
+}
+
+.f12 .download {
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-right: -5px;
+}
