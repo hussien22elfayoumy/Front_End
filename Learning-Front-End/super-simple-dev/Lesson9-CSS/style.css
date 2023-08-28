@@ -1,0 +1,193 @@
+.a9 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.b9 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.c9 {
+    width: 300px;
+    border: 1px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+
+.d9 {
+    width: 250px;
+    background-color: #202020;
+    color: #fff;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.d9 .title {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.d9 .subtitle {
+    font-size: 16px;
+    color: #9f9f9f;
+    margin-bottom: 0;
+}
+
+.e9 {
+    width: 400px;
+    box-shadow: 0 1px 6px rgb(163, 160, 160);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.e9 img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+}
+
+.e9 .bio {
+    border: none;
+    width: 280px;
+    vertical-align: middle;
+}
+
+.e9 .tweet {
+    border: none;
+    background-color: #3caaf7;
+    color: #fff;
+    padding: 5px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.f9 {
+    width: 110px;
+    box-shadow: 0px 1px 6px #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.f9 .name,
+.f9 .mutal-friends,
+.f9 .add-friend {
+    margin-top: 0;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.f9 .profile-pic {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 5px;
+}
+
+.f9 .name {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.f9 .mutal-friends {
+    font-size: 10px;
+    color: gray;
+}
+
+.f9 .add-friend {
+    background-color: #4675ec;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    padding: 5px 10px;
+    width: 60px;
+    font-size: 8px;
+}
+
+.g9 {
+    width: fit-content;
+    border: 2px solid #eee;
+    padding: 10px;
+}
+
+.g9 .profile-card {
+    width: 110px;
+    box-shadow: 0px 1px 6px #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.g9 .profile-card .name,
+.g9 .profile-card .mutal-friends,
+.g9 .profile-card .add-friend {
+    margin-top: 0;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.g9 .profile-card .profile-pic {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 5px;
+}
+
+.g9 .profile-card .name {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.g9 .mutal-friends {
+    font-size: 10px;
+    color: gray;
+}
+
+.g9 .profile-card .add-friend {
+    background-color: #4675ec;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    padding: 5px 10px;
+    width: 60px;
+    font-size: 8px;
+}
+
+
+.h9 {
+    width: 500px;
+}
+
+.h9 .logo {
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+.h9 input {
+    font-size: 16px;
+    width: 100%;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.h9 button {
+    border: none;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.h9 .google-search-button {
+    margin-left: 25%;
+}

@@ -1,0 +1,128 @@
+.a2-uber {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+}
+
+.b2-amazon {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    margin: 10px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.c2-git {
+    background-color: rgb(46, 164, 79);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.d2-bootstrap1 {
+    background-color: rgb(121, 82, 179);
+    border: none;
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.d2-bootstrap2 {
+    background-color: #fff;
+    color: rgb(108, 117, 125);
+    border: 1px solid rgb(108, 117, 125);
+    font-weight: 600;
+    margin-left: 5px;
+    padding: 9px 20px;
+    border-radius: 4px;
+}
+.d2-bootstrap2:hover {
+    color: #fff;
+    background-color: rgb(108, 117, 125);
+}
+
+.e2-linkedin1 {
+    background-color: rgb(10, 102, 194);
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.e2-linkedin2 {
+    background-color: #fff;
+    color: rgb(10, 102, 194);
+    border: 1.5px solid rgb(10, 102, 194);
+    margin-left: 5px;
+    padding: 8.5px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.e2-linkedin2:hover {
+    color: #fff;
+    background-color: rgb(10, 102, 194);
+
+}
+
+button {
+    /* transition: all ease .3s; */
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.f2 {
+    margin: 10px;
+    padding: 10px;
+
+}
+.f2 a {
+    color: rgb(0, 113, 133);
+    transition: all ease .3s;
+}
+.f2 a:hover {
+    color: red;
+}
+.f2 .one {
+    color: rgb(0, 118, 0);
+    font-size: 18px;
+    font-weight: 600;
+}
+.f2 .two {
+    font-weight: 600;
+}
+.f2 .add-to-cart {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.f2 .add-to-cart:active {
+    opacity: .5;
+}
+.f2 .buy-now {
+    background-color: rgb(255, 164, 28);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}

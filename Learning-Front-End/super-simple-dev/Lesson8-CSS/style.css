@@ -1,0 +1,81 @@
+.a8 input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.b8 p {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.c8 {
+    width: 500px;
+}
+
+.c8 .logo {
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+.c8 input {
+    font-size: 16px;
+    width: 100%;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.d8 input {
+    padding: 8px 15px;
+    border: 1px solid rgb(180, 177, 177);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.d8 .email {
+    display: block;
+    width: 235px;
+}
+
+.d8 .sign-up {
+    width: 267px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4676ec;
+    color: #fff;
+    font-weight: bold;
+}
+
+.e8 .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.e8 input {
+    display: block;
+    border: none;
+    background-color: #eee;
+    margin-top: 5px;
+    padding: 8px 16px;
+    width: 300px;
+}
+
+.e8 button {
+    border: none;
+    padding: 8px 16px;
+    margin-top: 30px;
+    width: 140px;
+}
+
+.e8 .request {
+    background-color: black;
+    color: #fff;
+    margin-right: 10px;
+}
