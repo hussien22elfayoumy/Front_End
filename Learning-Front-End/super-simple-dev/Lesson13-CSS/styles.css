@@ -1,3 +1,6 @@
+body {
+    padding-bottom: 30%;
+}
 hr {
     border: 1px solid black;
     margin: 25px 0;
@@ -192,3 +195,70 @@ hr {
     margin-bottom: 10px;
     white-space: nowrap;
 }
+
+/*-----------------        f13 style        ----------------- */
+
+.f13 {
+    width: 400px;
+    display: flex;
+    box-shadow: 0px 1px 6px rgb(0, 0, 0, 0.2);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-pic-column img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 10px;
+}
+
+.tweet-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet-column .name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tweet-column .name span {
+    color: gray;
+    font-weight: 400
+}
+
+.tweet {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.video-preview {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.video-preview .thumbnail {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+}
+
+.video-preview .video-info {
+    flex: 1;
+}
+
+
+.video-website {
+    color: rgb(111, 111, 111);
+    margin-bottom: 3px;
+  }
+  
+  .video-title {
+    line-height: 22px;
+  }
