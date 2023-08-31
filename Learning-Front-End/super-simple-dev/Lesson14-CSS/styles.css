@@ -1,0 +1,157 @@
+body {
+    height: 3000px;
+}
+
+/* .a14 {
+    background-color: black;
+    color: #Fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+} */
+
+.b14 {
+    width: 100px;
+    background-color: green;
+    color: #fff;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+.d14 {
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    background-color: #fff;
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.box .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.box .subject {
+    margin-bottom: 10px;
+}
+
+.e14 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.left {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.left .profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 5px;
+}
+
+.left .name {
+    font-family: arial;
+    font-weight: bold;
+}
+
+.right .add-friend {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-right: 3px;
+}
+
+.right .message {
+    background-color: rgb(230, 230, 230);
+    border: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+
+.f14 .sidebar-1 {
+    background-color: #202225;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.sidebar-1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.sidebar-2 {
+    background-color: #313131;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 80px;
+    width: 150px;
+    padding: 15px 15px 0 15px;
+}
+
+.sidebar-2 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sidebar-2 .info {
+    color: #fff;
+
+}
+
+.sidebar-2 .creat-new {
+    font-size: 25px;
+    color: #8f9296;
+}
+
+.sidebar-2 .hashtag {
+    color: #8f9296;
+    margin-bottom: 16px;
+}
