@@ -1,14 +1,493 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube clone | Hussien Elfayoumy</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" />
+
 </head>
+
 <body>
+    <header>
+        <div class="left-section">
+            <i class="material-symbols-outlined menu">
+                menu
+            </i>
+            <img src="channal-photo/youtube-logo.png" alt="">
+        </div>
+
+        <div class="mid-section">
+            <input type="search" placeholder="Search" class="search-bar">
+            <button class="search-button">
+                <i class="material-symbols-outlined">
+                    Search
+                </i>
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="record-voice-button">
+                <i class="material-icons view">
+                    mic
+                </i>
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <div class="create-container">
+                <i class="material-symbols-outlined">
+                    video_call
+                </i>
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="notification-container">
+                <i class="material-symbols-outlined">
+                    notifications
+                </i>
+                <div class="tooltip">Notification</div>
+            </div>
+            <img src="channal-photo/user-img.jpg" class="user-img">
+        </div>
+    </header>
+
     <main>
-        
+        <div class="container">
+            <section class="video-previews">
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail1.jpg" class="thumbnail">
+                        <div class="video-time">6:31:24</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel1.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">HTML & CSS Full Course - Beginner to pro</p>
+                            <p class="video-author">SupersimpleDev</p>
+                            <p class="video-stats">6.1M views • 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail2.jpg" class="thumbnail">
+                        <div class="video-time">1:14:13</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel2.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">قعده حلوة ولقاء مع المتابعين الكرام رقم 1</p>
+                            <p class="video-author">ُElzero Tube</p>
+                            <p class="video-stats">9.4k views • 2weeks ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/elzero.jpg" class="thumbnail">
+                        <div class="video-time">23:30</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/elzero.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">ضيعت سنين الكليه علي الفاضي ؟</p>
+                            <p class="video-author">Elzero Web School</p>
+                            <p class="video-stats">66K views • 7days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail3.jpg" class="thumbnail">
+                        <div class="video-time">7:18</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel3.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">شكرا لكل جرام في ال 100 كيلو</p>
+                            <p class="video-author">Fatmhisoka</p>
+                            <p class="video-stats">3.9K views • 6 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail4.jpg" class="thumbnail">
+                        <div class="video-time">53:31</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel4.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">سلسلة السيرة النبوية-الدرس الثامن-عام الحزن ورحلة النبي صلي الله عليه
+                                وسلم إلي الطائف</p>
+                            <p class="video-author">Ahmed Amer</p>
+                            <p class="video-stats">316K views • 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail5.jpg" class="thumbnail">
+                        <div class="video-time">8:05</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel5.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">5 مصادر مجانية لتعلم البرمجه للمبتدئين</p>
+                            <p class="video-author">Ghareeb Elshaikh || غريب الشيخ</p>
+                            <p class="video-stats">43K views • 2 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail6.jpg" class="thumbnail">
+                        <div class="video-time">1:35:35</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel6.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">وعي 65 |أحسن القصص | سيدنا هود عليه السلام</p>
+                            <p class="video-author">وعي</p>
+                            <p class="video-stats">57k views • 4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail7.jpg" class="thumbnail">
+                        <div class="video-time">10:07</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel3.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">أفضل اماكن للخروج في القاهرة..صرفت 200ج بس!! | اماكن عايزين نروح ليها
+                            </p>
+                            <p class="video-author">Fatmhisoka</p>
+                            <p class="video-stats">3.7K views • 4days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail8.jpg" class="thumbnail">
+                        <div class="video-time">48:32</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel8.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">شرح بناء لعبة في رياكت|Tutorial To Build Tic-Tac-Toe in React.js
+                                (Arabic)</p>
+                            <p class="video-author">Yehia Techيحيى تك</p>
+                            <p class="video-stats">2.6K views • 22hours ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail9.jpg" class="thumbnail">
+                        <div class="video-time">1:25:19</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel9.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">Nodejs session 6 - نود جى اس المحاضرة السادسة</p>
+                            <p class="video-author">codeZone</p>
+                            <p class="video-stats">1K views • 9days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <hr>
+
+            <section class="shorts">
+                <div class="header">
+                    <img src="shorts-photo/shorts-logo.png">
+                    <div class="shorts-title">Shorts</div>
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+                <div class="shorts-videos">
+                    <div class="shorts-card">
+                        <img src="shorts-photo/shorts1.jpg" class="shorts-pic">
+                        <p class="shorts-title">ايه معني لما تدخل موقع وتلاقيه Server is down?</p>
+                        <p class="shorts-stats">1.4M views</p>
+                    </div>
+                    <div class="shorts-card">
+                        <img src="shorts-photo/shorts2.jpg" class="shorts-pic">
+                        <p class="shorts-title">1# كم ان الانسان اختار انه يتهان تدريب الصيف..edition</p>
+                        <p class="shorts-stats">67K views</p>
+                    </div>
+                    <div class="shorts-card">
+                        <img src="shorts-photo/shorts3.jpg" class="shorts-pic">
+                        <p class="shorts-title">دخلت القناه بس تايه</p>
+                        <p class="shorts-stats">21K views</p>
+                    </div>
+                    <div class="shorts-card">
+                        <img src="shorts-photo/shorts4.jpg" class="shorts-pic">
+                        <p class="shorts-title">True and False</p>
+                        <p class="shorts-stats">2.7K views</p>
+                    </div>
+                    <div class="shorts-card">
+                        <img src="shorts-photo/new2.jpg" class="shorts-pic">
+                        <p class="shorts-title">Do you remember this budget keyboard?</p>
+                        <p class="shorts-stats">1.7M views</p>
+                    </div>
+                    <div class="shorts-card">
+                        <img src="shorts-photo/new2.jpg" class="shorts-pic">
+                        <p class="shorts-title">Do you remember this budget keyboard?</p>
+                        <p class="shorts-stats">1.7M views</p>
+                    </div>
+                    <div class="shorts-card">
+                        <img src="shorts-photo/shorts1.jpg" class="shorts-pic">
+                        <p class="shorts-title">ايه معني لما تدخل موقع وتلاقيه Server is down?</p>
+                        <p class="shorts-stats">1.4M views</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <hr>
+
+            <section class="video-previews">
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail8.jpg" class="thumbnail">
+                        <div class="video-time">48:32</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel8.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">شرح بناء لعبة في رياكت|Tutorial To Build Tic-Tac-Toe in React.js
+                                (Arabic)</p>
+                            <p class="video-author">Yehia Techيحيى تك</p>
+                            <p class="video-stats">2.6K views • 22hours ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail9.jpg" class="thumbnail">
+                        <div class="video-time">1:25:19</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel9.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">Nodejs session 6 - نود جى اس المحاضرة السادسة</p>
+                            <p class="video-author">codeZone</p>
+                            <p class="video-stats">1K views • 9days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail11.jpg" class="thumbnail">
+                        <div class="video-time">19:45</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel11.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">التليفون دا جاب لي الشتيمه؟</p>
+                            <p class="video-author">دروس اونلاين</p>
+                            <p class="video-stats">182K views • 6 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail9.jpg" class="thumbnail">
+                        <div class="video-time">1:25:19</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel9.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">Nodejs session 6 - نود جى اس المحاضرة السادسة</p>
+                            <p class="video-author">codeZone</p>
+                            <p class="video-stats">1K views • 9days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview-card">
+                    <div class="thumbnail-container">
+                        <img src="Thumbnail/thumbnail12.jpg" class="thumbnail">
+                        <div class="video-time">18:37</div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-picture">
+                            <img src="channal-photo/channel12.jpg" class="channel-picture">
+                        </div>
+                        <div>
+                            <p class="video-title">احسن ناشفيل فرايد تشيكن Nashville Fried Chicken في مصر</p>
+                            <p class="video-author">Amr Sherif</p>
+                            <p class="video-stats">282k views • 1 day ago</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
     </main>
+
+    <aside class="sidebar">
+        <nav>
+            <a href="" class="row active">
+                <i class="material-icons">
+                    home
+                </i>
+                <span class="bold">Home</span>
+            </a>
+            <a href="" class="row">
+                <i class="material-symbols-outlined">
+                    live_tv
+                </i>
+                <span>Shorts</span>
+            </a>
+            <a href="" class="row">
+                <i class="material-symbols-outlined">
+                    subscriptions
+                </i>
+                <span>Subscription</span>
+            </a>
+        </nav>
+        <hr class="hide">
+        <nav class="hide">
+            <a href="" class="row">
+                <i class="material-symbols-outlined">
+                    video_library
+                </i>
+                <span>You</span>
+            </a>
+            <a href="" class="row">
+                <i class="material-symbols-outlined">
+                    account_box
+                </i>
+                <span>Your channel</span>
+            </a>
+            <a href="" class="row">
+                <i class="material-symbols-outlined">
+                    history
+                </i>
+                <span>History</span>
+            </a>
+            <a href="" class="row">
+                <i class="material-symbols-outlined">
+                    slideshow
+                </i>
+                <span>Your videos</span>
+
+            </a>
+            <a href="" class="row">
+                <i class="material-symbols-outlined">
+                    schedule
+                </i>
+                <span>Whatch later</span>
+
+            </a>
+            <a href="" class="row">
+                <i class="material-symbols-outlined">
+                    thumb_up
+                </i>
+                <span>Liked video</span>
+
+            </a>
+            <a href="" class="row">
+                <i class="material-symbols-outlined">
+                    expand_more
+                </i>
+                <span>Show more</span>
+            </a>
+        </nav>
+        <hr class="hide">
+        <nav class="hide">
+            <div class="sub">Subscriptions</div>
+            <a href="" class="row">
+                <img src="channal-photo/channel1.jpg">
+                <span>SupersimpleDev</span>
+            </a>
+            <a href="" class="row">
+                <img src="channal-photo/elzero.jpg">
+                <span>Elzero Web School</span>
+            </a>
+            <a href="" class="row">
+                <img src="channal-photo/asmr-prog.jpg">
+                <span>AsmrProg</span>
+            </a>
+            <a href="" class="row">
+                <img src="channal-photo/channel8.jpg">
+                <span>Yehia Tech يحيى تك</span>
+            </a>
+            <a href="" class="row">
+                <img src="channal-photo/channel4.jpg">
+                <span>Ahmed Amer</span>
+            </a>
+            <a href="" class="row">
+                <img src="channal-photo/channel2.jpg">
+                <span>Elzero Tube</span>
+            </a>
+            <a href="" class="row">
+                <img src="channal-photo/channel3.jpg">
+                <span>Fatmhisoka</span>
+            </a>
+            <a href="" class="row">
+                <img src="channal-photo/channel9.jpg">
+                <span>codeZone</span>
+            </a>
+            <a href="" class="row">
+                <img src="channal-photo/channel11.jpg">
+                <span>دروس أونلاين</span>
+            </a>
+            </a>
+        </nav>
+
+    </aside>
 </body>
+
 </html>
