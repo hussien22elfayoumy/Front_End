@@ -1,0 +1,64 @@
+/*TIP 
+use nestet css styles
+use [em] with padding and margins 
+use [rem] with font size
+*/
+.hide-mobile {
+  display: none;
+}
+
+body {
+  background-color: #fffbf3;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.wrap {
+  margin: 2em; /* em --. relative to font size of the page usually 16px unless we changed it*/
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  background-color: white;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  list-style: none;
+  width: 35%;
+  text-align: right;
+  padding: 2em;
+  /*TIP this will work as display: none; property*/
+  transform: translateX(100%);
+  transition: all 0.3s ease;
+
+  li {
+    margin: 2em 0;
+    &:nth-of-type(1) {
+      /*targeting the first li element*/
+      margin: 0 0 3em;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+      font-size: 1.5rem;
+      font-weight: bold;
+      transition: all 0.5s ease-in-out;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.open {
+  transform: translateX(0);
+}
