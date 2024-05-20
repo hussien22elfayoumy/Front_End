@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>SIMPLE CALCULATOR</p>
+    <div>
+      <button
+        onclick="
+        updadeCalc('1');
+    "
+      >
+        1
+      </button>
+      <button
+        onclick="
+    updadeCalc('2');
+  "
+      >
+        2
+      </button>
+      <button
+        onclick="
+    updadeCalc('3');
+  "
+      >
+        3
+      </button>
+      <button
+        onclick="
+      updadeCalc(' + ');
+    "
+      >
+        +
+      </button>
+    </div>
+    <div>
+      <button
+        onclick="
+      updadeCalc('4');
+    "
+      >
+        4
+      </button>
+      <button
+        onclick="
+    updadeCalc('5');;
+  "
+      >
+        5
+      </button>
+      <button
+        onclick="
+    updadeCalc('6');
+  "
+      >
+        6
+      </button>
+      <button
+        onclick="
+      updadeCalc(' - ')
+    "
+      >
+        -
+      </button>
+    </div>
+    <div>
+      <button
+        onclick="
+      updadeCalc('7');
+    "
+      >
+        7
+      </button>
+      <button
+        onclick="
+    updadeCalc('8');
+  "
+      >
+        8
+      </button>
+      <button
+        onclick="
+    updadeCalc('9');
+  "
+      >
+        9
+      </button>
+      <button
+        onclick="
+      updadeCalc(' * ')
+    "
+      >
+        *
+      </button>
+    </div>
+
+    <div>
+      <button
+        onclick="
+      updadeCalc('0');
+    "
+      >
+        0
+      </button>
+      <button
+        onclick="
+      updadeCalc('.');
+    "
+      >
+        .
+      </button>
+      <button
+        onclick="
+        calc = eval(calc);
+      console.log(calc);
+      //localStorage.setItem('calculation', calc);
+      saveCalculation()
+
+    "
+      >
+        =
+      </button>
+      <button
+        onclick="
+      updadeCalc(' / ');
+    "
+      >
+        /
+      </button>
+    </div>
+    <button
+      onclick="
+    calc=''
+    console.log(calc);
+    //localStorage.setItem('calculation', calc);
+    saveCalculation()
+    "
+    >
+      clear
+    </button>
+    <script>
+      let calc = localStorage.getItem("calculation") || "";
+      function updadeCalc(num) {
+        calc += num;
+        console.log(calc);
+        localStorage.setItem("calculation", calc);
+      }
+
+      function saveCalculation() {
+        localStorage.setItem("calculation", calc);
+      }
+    </script>
+  </body>
+</html>

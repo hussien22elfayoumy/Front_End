@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Flib Game</p>
+    <button
+      onclick="
+    playGame('head');
+    "
+    >
+      HEAD
+    </button>
+    <button
+      onclick="
+    playGame('tails');
+    "
+    >
+      TAILS
+    </button>
+
+    <script>
+      let score = JSON.parse(localStorage.getItem("score")) || {
+        wins: 0,
+        losses: 0,
+      };
+
+      function playGame(playerMove) {
+        let randomNumber = Math.random();
+        let computerMove = "";
+        if (randomNumber > 0 && randomNumber < 0.5) {
+          computerMove = "head";
+        } else if (randomNumber > 0.5 && randomNumber < 1) {
+          computerMove = "tails";
+        }
+        let result = "";
+        if (computerMove === playerMove) {
+          result = "YOU WIN";
+          score.wins++;
+        } else if (computerMove !== playerMove) {
+          result = "YOU LOSE";
+          score.losses++;
+        }
+        alert(
+          `You picked [ ${playerMove} ] | Computer picked [ ${computerMove} ] || ${result}
+---------------------
+Wins: [ ${score.wins} ] | Losses [ ${score.losses} ] 
+`
+        );
+        localStorage.setItem("score", JSON.stringify(score));
+      }
+    </script>
+  </body>
+</html>

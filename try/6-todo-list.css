@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+input {
+  width: 130px;
+  height: 25px;
+  padding: 0 0 0 5px;
+}
+button {
+  width: 60px;
+  height: 28px;
+  border: none;
+  color: white;
+  background-color: green;
+}
+div span {
+  display: inline-block;
+  width: 140px;
+}
+
+.date-span {
+  display: inline-block;
+  width: 139px;
+}
+
+.del-btn {
+  background-color: red;
+}

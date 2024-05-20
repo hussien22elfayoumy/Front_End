@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <p>Cart</p>
+  <button onclick="
+    /* console.log(`Your Current Cart has [${cartQuantatity}] products.`) */
+    document.querySelector('.js-paragraph').innerHTML = `Your Cart now has [${cartQuantatity}] products.`
+    ">
+    Show Cart
+  </button>
+  <button onclick="
+      if (cartQuantatity + 1 > 10){
+        alert('The cart is full');
+        return;
+      }
+      updateCartQuantity(1)">
+    Add To Cart
+  </button>
+  <button onclick="
+      if (cartQuantatity + 2 > 10){
+        alert('The cart is full');
+        return;
+      }
+        updateCartQuantity(2)">
+    +2
+  </button>
+  <button onclick="
+      if (cartQuantatity + 3 > 10){
+        alert('The cart is full');
+        return;
+      }
+        updateCartQuantity(3)">
+    +3
+  </button>
+  <button onclick="
+      if (cartQuantatity + 4 > 10){
+        alert('The cart is full');
+        return;
+      }
+        updateCartQuantity(4)">
+    +4
+  </button>
+  <button onclick="
+      if (cartQuantatity + 5 > 10){
+        alert('The cart is full');
+        return;
+      }
+        updateCartQuantity(5)">
+    +5
+  </button>
+  <button onclick="
+      if (cartQuantatity -1 < 0){
+           alert('Not enough items in the cart');
+       return;
+      }
+        updateCartQuantity(-1)">
+    Remove From Cart
+  </button>
+  <button onclick="
+      if (cartQuantatity -2 < 0){
+           alert('Not enough items in the cart');
+       return;
+      }
+        updateCartQuantity(-2);">
+    -2
+  </button>
+  <button onclick="
+      if (cartQuantatity -3 < 0){
+           alert('Not enough items in the cart');
+       return;
+      }
+        updateCartQuantity(-3)">
+    -3
+  </button>
+  <button onclick="
+      cartQuantatity=0;
+    // console.log(`Your Cart now is EMPTY.`);
+    document.querySelector('.js-paragraph').innerHTML = `Your Cart now is EMPTY.`
+    ">
+    Reset Cart
+  </button>
+
+  <p class="js-paragraph"></p>
+
+  <script>
+    let cartQuantatity = 0;
+
+    function updateCartQuantity(num) {
+      cartQuantatity += num;
+      if (num < 0) {
+        /* console.log(
+          `Removed ${-num} product your cart now is [${cartQuantatity}] products`
+        ); */
+
+        document.querySelector(
+          ".js-paragraph"
+        ).innerHTML = `Removed ${-num} product. <br><br>
+your Cart now has [${cartQuantatity}] products.`;
+      } else {
+        /* console.log(
+          `Added ${num} product yout Cart now is [${cartQuantatity}] products.`
+        ); */
+        document.querySelector(
+          ".js-paragraph"
+        ).innerHTML = `Added ${num} product. <br><br>
+your Cart now has [${cartQuantatity}] products.`;
+      }
+    }
+  </script>
+</body>
+
+</html>
