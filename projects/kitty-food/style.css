@@ -3,6 +3,10 @@ use nestet css styles
 use [em] with padding and margins 
 use [rem] with font size
 */
+
+* {
+  box-sizing: border-box;
+}
 .hide-mobile {
   display: none;
 }
@@ -31,12 +35,12 @@ nav ul {
   right: 0;
   margin: 0;
   list-style: none;
-  width: 35%;
+  width: 40%;
   text-align: right;
   padding: 2em;
   /*TIP this will work as display: none; property*/
   transform: translateX(100%);
-  transition: all 0.3s ease;
+  transition: all 0.5s ease-in-out;
 
   li {
     margin: 2em 0;
@@ -50,7 +54,7 @@ nav ul {
       text-decoration: none;
       font-size: 1.5rem;
       font-weight: bold;
-      transition: all 0.5s ease-in-out;
+      transition: all 0.3s ease-in-out;
 
       &:hover {
         text-decoration: underline;
@@ -61,4 +65,181 @@ nav ul {
 
 .open {
   transform: translateX(0);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 3em;
+  font-size: 2rem;
+
+  img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.primary-cta {
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: #ffa800;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0.3em;
+  margin-top: 1.5em;
+  width: 100%;
+}
+.cat {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  margin-top: 3em;
+
+  img {
+    width: 70%;
+    position: absolute;
+    /*TIP to make the image in the center of the div without calc*/
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .inner-circle,
+  .outer-circle {
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .inner-circle {
+    background-color: #ffebc3;
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+  }
+  .outer-circle {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    z-index: -2;
+  }
+}
+
+@media (min-width: 798px) {
+  .wrap {
+    margin: 0 4em;
+  }
+
+  .hide-desktop {
+    display: none;
+  }
+
+  .hide-mobile {
+    display: block;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-between;
+
+    .divider {
+      width: 1.3px;
+      height: 50px;
+      background-color: gray;
+    }
+
+    .home {
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      font-size: 1.3rem;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  nav ul {
+    position: unset;
+    background: none;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding: 0;
+    transform: translateX(0%);
+    li a {
+      font-size: 1.2rem;
+    }
+  }
+  .primary-cta {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 950px) {
+  main {
+    width: 50%;
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .cat {
+    margin-top: 0;
+    .inner-circle {
+      width: 500px;
+      height: 500px;
+    }
+    .outer-circle {
+      width: 1000px;
+      height: 1000px;
+    }
+  }
+  .cat-container {
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    top: 20%;
+    right: 0;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrap {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 1200px;
+  }
+  .cat {
+    position: relative;
+
+    img {
+      max-width: 400px;
+      left: 50%;
+    }
+  }
 }
